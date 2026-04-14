@@ -1,0 +1,9 @@
+model,ESFP_mean,ESFP_std,CI_lower,CI_upper
+deepseek-ai/deepseek-v3.2,0.81653,0.01583,0.78361,0.84877
+anthropic/claude-sonnet-4-6@default,0.78518,0.0182,0.75006,0.82242
+google/gemma-3-27b,0.78337,0.01835,0.74884,0.81964
+zai/glm-5,0.70075,0.02045,0.66326,0.74343
+google/gemini-3.1-flash-lite-preview,0.63576,0.05524,0.52029,0.74246
+anthropic/claude-haiku-4-5@20251001,0.61152,0.03813,0.52986,0.68396
+qwen/qwen3-next-80b-a3b-thinking,0.50369,0.04442,0.41828,0.58946
+google/gemini-3.1-pro-preview,0.39884,0.03066,0.33921,0.45701

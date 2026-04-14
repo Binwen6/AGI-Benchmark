@@ -1,0 +1,67 @@
+# ═══════════════════════════════════════════════════════════════
+# ESFP Benchmark — .gitignore
+# Keep: writeup, latest notebook, corpus, figures, scores, src
+# Ignore: internal docs, old versions, raw data, third-party libs
+# ═══════════════════════════════════════════════════════════════
+
+# ── OS / IDE ──────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*~
+
+# ── Claude Code internals ─────────────────────────────────────
+.claude/
+
+# ── Internal strategy & competition docs (not ours to publish) ─
+Kaggle AGI 赛事分析与策略.docx
+Measuring Progress Toward AGI.docx
+measuring-progress-toward-agi-a-cognitive-framework.pdf
+Notion.pdf
+
+# ── Internal deliverables (Word drafts, temp files) ───────────
+delieverables/
+
+# ── Literature survey (copyrighted PDFs) ──────────────────────
+survey/
+
+# ── Third-party reference notebooks & libs ────────────────────
+kaggle-benchmarks/
+kaggle-benchmarks-getting-started-notebook.ipynb
+benchmark_demo/
+
+# ── Old notebook versions (keep only v2.3) ────────────────────
+ESFP_benchmark_v0.ipynb
+ESFP_benchmark_v1.ipynb
+ESFP_benchmark_v1.2.ipynb
+ESFP_benchmark_v2.2.ipynb
+
+# ── Old corpus version ────────────────────────────────────────
+asset/ESFP_corpus.csv
+
+# ── Old / intermediate results ────────────────────────────────
+results/v1/
+results/v1.2/
+results/v2.1/
+results/readable/
+
+# ── Kaggle run metadata & raw cell outputs (not useful publicly)
+results/v2.2/*.run.json
+results/v2.2/*.task.json
+results/v2.2/__results___files/
+results/v2.2/__huggingface_repos__.json
+
+# ── Raw parquet data (contains full model responses, ~4MB) ────
+# Scores CSV and figures are kept; raw inference data is excluded
+results/v2.2/ESFP_results/*.parquet
+
+# ── Utility scripts (internal) ────────────────────────────────
+utils/
+
+# ── Python / env ──────────────────────────────────────────────
+__pycache__/
+*.pyc
+.env
+*.egg-info/
