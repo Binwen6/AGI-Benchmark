@@ -1,5 +1,7 @@
 **Disclaimer**: This repository contains the complete source code, corpus, and experimental results for the ESFP Benchmark, developed as a submission to the Measuring Progress Toward AGI — Cognitive Abilities competition on Kaggle. All materials are released for transparency, reproducibility, and educational purposes only. Reuse of any part of this work in academic publications or competition submissions without proper attribution constitutes plagiarism and is strictly prohibited.
 
+![](assest/ESFP_logo.png)
+
 **Kaggle Benchmark** links:
 - [Write-up](https://www.kaggle.com/competitions/kaggle-measuring-agi/writeups/new-writeup-1776173871950)
 - [Benchmark Page](https://www.kaggle.com/benchmarks/binwen666/esfp-epistemic-stance-flexibility-probing)
