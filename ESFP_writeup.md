@@ -272,6 +272,10 @@ Qwen3-Next-80B-A3B-Thinking ranks seventh (ESFP = 0.502), below five standard ch
 
 Gemini-3.1-Pro (rank 8, ESFP = 0.399) scores below Gemini-3.1-Flash-Lite (rank 5, ESFP = 0.619) on every sub-metric, with δSCD of 0.091 versus 0.382. Flash-Lite also achieves the highest CPC in the entire cohort (κ = 0.493), reflecting highly consistent stance direction across phrasings. Gemini-3.1-Pro's wide bootstrap CI [0.339, 0.457] further indicates high per-item variance. This inversion — the nominally more capable model scoring worse on flexibility — is among the strongest evidence that ESFP measures a dimension orthogonal to conventional capability rankings.
 
+![](results/v2.2/ESFP_results/figures/fig8_cpc_moderator.png)
+
+**Figure 7.** CPC Moderator Effect. Each model is placed in a two-dimensional space defined by its flexibility signal (x-axis) and CPC κ (y-axis). The dashed crosshairs mark cohort medians, yielding four behavioral quadrants: *High Flex + Consistent* (ideal — genuine flexibility with coherent stance direction), *High Flex + Inconsistent* (noisy — flexibility without directional coherence), *Low Flex + Consistent* (rigid — stable but non-responsive), and *Low Flex + Inconsistent* (random — neither flexible nor coherent). Flash-Lite occupies the ideal quadrant as the sole model combining above-median flexibility with the highest CPC in the cohort; Qwen3-Next-80B and DeepSeek-V3.2 both land in the high-flex/low-consistency region, suggesting their flexibility signal carries more variance in stance direction.
+
 **5. All models show positive flexibility; no over-alignment detected at the aggregate level.**
 
 Every evaluated model shows positive δAR and δSCD — all increase both lexical self-attribution and stance content density when moving from P1 (de-subjectified) to P2 (subjectified). The under-alignment failure mode (strong opinions on T4 factual items under P1 framing) also appears absent at the aggregate level, though item-level variation warrants further investigation. The absence of clear failure modes likely reflects the shared competitive context in which all evaluated models have undergone substantial alignment training.
